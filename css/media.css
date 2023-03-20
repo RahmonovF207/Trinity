@@ -1,0 +1,35 @@
+@media(max-width: 788px){
+    .header-logo a img{
+        width: 100px;
+    }
+}
+
+@media(max-width: 768px){
+    .header-menu-icon{
+        display: block;
+    }
+    .header-list{
+        display: none;
+    }
+    .header-menu-media{
+        display: block;
+    }
+}
+
+@media(max-width: 425px){
+    .header{
+        background-position: bottom;
+    }
+}
+
+@media(max-width: 370px){
+    .header-center-content h1{
+        font-size: 50px;
+    }
+    .header-center-content h4{
+        font-size: 24px;
+        position: relative;
+        bottom: 20px;
+    }
+}
+
